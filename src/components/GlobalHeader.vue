@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { h, ref } from 'vue'
 import { HomeOutlined } from '@ant-design/icons-vue'
-import { MenuProps } from 'ant-design-vue'
+import { type MenuProps } from 'ant-design-vue'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
